@@ -16,6 +16,6 @@ $(BINDIR)/c_test1 : $(OBJDIR)/c_test1.o
 
 clean:
 	rm $(OBJDIR)/*.o
-	rm $(BINDIR)/*
+	rm $(BINDIR)/c_test1
 
 
